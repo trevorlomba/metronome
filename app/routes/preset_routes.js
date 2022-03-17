@@ -30,7 +30,9 @@ const router = express.Router()
 // INDEX
 // GET /presets
 router.get('/presets', (req, res, next) => {
-  preset.find()
+  preset.find(
+    { owner: req.user }
+  )
     // respond with status 200 and JSON of the presets
     .then(presets => res.status(200).json({ presets: presets }))
     // if an error occurs, pass it to the handler
