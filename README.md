@@ -1,4 +1,4 @@
-# Metronome 
+# Random Note Generator 
 #### by Trevor Lomba
 This is a metronome app with added functionality to aid musicians in their practice. The metronome updates every measure with a new random key which the musician is to use as reference to play whichever patterns they are practicing in the new key, in rhythm, every measure. Within setting users can customize which keys are randomly chosen from and save, load, edit and delete these presets. 
 
